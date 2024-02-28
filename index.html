@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div>
+    <h1 class="hh">voucher pin</h1>
+  </div>
+
+  <div class="ay">
+    <button id="butn">Generate pin</button>
+    <p id="showNumber"></p>
+  </div>
+</body>
+
+<script>
+  document.getElementById('butn').addEventListener('click',function () {
+    const showNumber = Math.floor(Math.random() * 1000000000000000) + 1;
+
+    document.getElementById("showNumber").innerHTML += "<i>" + "<br>" + showNumber + "<i />" + "<br /n/>"
+
+  })
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // function random() {
+  //   const showNumber =Math.floor(Math.random()* 100 )+1;
+  //   return showNumber;
+  // }
+  // function display() {
+  //   const showNumber = random();
+  //   document.getElementById('showNumber').textContent = 'Random Number:' + s
+  // }
+  // document.getElementById(butn).addEventListener("click",random)
+
+
+</script>
+
+</html>

@@ -1,0 +1,23 @@
+div{
+    border: 1px solid;
+     color: black; width: 400px; height: 70px;
+      background-color: black;
+      margin-left: 400px;
+}
+.hh{
+    color: white;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    flex-wrap: wrap;
+    
+}
+
+.ay{
+    border: 5px solid;
+    color: rgb(42, 142, 165);
+    width: 393px;
+    height: 300px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+
